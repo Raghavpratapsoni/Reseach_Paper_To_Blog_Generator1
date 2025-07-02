@@ -1,3 +1,4 @@
+
 import os
 import streamlit as st
 import fitz  # PyMuPDF
@@ -9,10 +10,13 @@ from langchain.chains import RetrievalQA
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from langchain_community.vectorstores import FAISS
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
-# 🔐 API TOKENS (HuggingFace token is hardcoded as requested)
-HUGGINGFACE_TOKEN = "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"
+# 🔐 API TOKENS (Read from environment variables for security)
+HUGGINGFACE_TOKEN = os.environ.get("HUGGINGFACE_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 # Warn if tokens are missing
