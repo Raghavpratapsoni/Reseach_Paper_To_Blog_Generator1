@@ -6,6 +6,7 @@ langchain-huggingface
 faiss-cpu
 python-dotenv
 gradio
-
-HUGGINGFACEHUB_API_TOKEN='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'
-GROQ_API_KEY= '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'
+streamlit
+pymupdf
+torch
+sentence-transformers
