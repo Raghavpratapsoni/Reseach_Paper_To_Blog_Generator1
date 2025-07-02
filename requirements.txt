@@ -1,0 +1,8 @@
+langchain-groq
+langchain_community
+huggingface_hub
+PyPDF2
+langchain-huggingface
+faiss-cpu
+python-dotenv
+gradio
