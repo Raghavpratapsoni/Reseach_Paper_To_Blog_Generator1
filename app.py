@@ -12,7 +12,7 @@ from langchain_community.vectorstores import FAISS
 
 
 # 🔐 API TOKENS (HuggingFace token is hardcoded as requested)
-HUGGINGFACE_TOKEN = "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"
+HUGGINGFACE_TOKEN = "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"
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 # Warn if tokens are missing
