@@ -5,7 +5,6 @@ PyPDF2
 langchain-huggingface
 faiss-cpu
 python-dotenv
-gradio
 streamlit
 pymupdf
 torch
